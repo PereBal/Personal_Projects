@@ -21,6 +21,9 @@ Guess what? is a script to make a backup of:
 
 One must say it's not fully developed so any kind of attempt like
   >-f /home/$user/Desktop/folder
+
 will **NOT** work. Instead you have to
+
   >-f /home/$user/Desktop
+
 I'm sorry about it, but I'll take care of that flaw later on.
