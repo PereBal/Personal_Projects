@@ -16,7 +16,7 @@ A bunch of lazy user oriented bash scripts.
 ### Backup.sh
 Guess what? it's a script to make a backup of:
   1. All folders under /home/$user (yes, you can choose which user using the **-u** option)
-  2. Some folders under /home/$user especified via: 
+  2. Some folders under /home/$user specified via: 
      >-f folder1 .. folderN
 
 One must say it's not fully developed so any kind of attempt like
