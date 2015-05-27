@@ -14,7 +14,7 @@ An implementation of a randomized version of Prim's minimal spanning tree algori
 A bunch of lazy user oriented bash scripts.
 
 ### Backup.sh
-Guess what? is a script to make a backup of:
+Guess what? it's a script to make a backup of:
   1. All folders under /home/$user (yes, you can choose which user using the **-u** option)
   2. Some folders under /home/$user especyfied via: 
      >-f folder1 .. folderN
