@@ -16,7 +16,7 @@ A bunch of lazy user oriented bash scripts.
 ### Backup.sh
 Guess what? it's a script to make a backup of:
   1. All folders under /home/$user (yes, you can choose which user using the **-u** option)
-  2. Some folders under /home/$user especyfied via: 
+  2. Some folders under /home/$user especified via: 
      >-f folder1 .. folderN
 
 One must say it's not fully developed so any kind of attempt like
@@ -26,4 +26,4 @@ will **NOT** work. Instead you have to
 
   >-f /home/$user/Desktop
 
-I'm sorry about it, but I'll take care of that flaw later on.
+I'm sorry about that, but I'll take care of that flaw later on (I promise).
