@@ -1,12 +1,14 @@
 # Personal_Projects
 My little secret diary but with code. As soon as I finish a new *relevant* project, I'll upload it here
 
-# Index
+## Index
 1. [C](https://github.com/PereBal/Personal_Projects#c)
   1. [Calc](https://github.com/PereBal/Personal_Projects#calc)
   2. [MazeGenerator](https://github.com/PereBal/Personal_Projects#mazegenerator)
 2. [Bash](https://github.com/PereBal/Personal_Projects#bash)
   1. [Backup](https://github.com/PereBal/Personal_Projects#backup)
+3. [Python](https://github.com/PereBal/Personal_Projects#python)
+  1. [Chat-App](https://github.com/PereBal/Personal_Projects#chat-app)
 
 ## C
 These are my *relevant* C projects. Most of them don't have a practical use, I've made them just for fun or in order to learn something.
@@ -16,8 +18,11 @@ A simple calculator implemented with a Lexical analyzer and recursive descent pa
 
 #### Instalation
 1. Go to the folder
+
 >**cd** path_to_folder
-2. Execute te makefile
+
+2. Execute the makefile
+
 >**make**
 
 ### MazeGenerator
@@ -48,11 +53,29 @@ will **NOT** work. Instead you have to
 I'm sorry about that, but I'll take care of that flaw later on (I promise).
 
 #### Instalation
-1. Go to the folder
+1. Go to the folder where* backup.sh* is stored
 >**cd** path_to_folder
 
 2. Make both scripts executable
->**chmod u+x** backup.sh bck_exef.sh
+>**chmod u+x** *backup.sh* *bck_exef.sh*
 
-3. Execute backup.sh and enjoy? (right now it's necessary to have both scripts in the same folder)
->./backup.sh user \[-f folder {folder}\] 
+3. Execute backup.sh and enjoy? (right now it's necessary to have both scripts on the same folder)
+>*./backup.sh* user \[-f folder {folder}\] 
+
+## Python
+The things I do with *Python 3*...
+
+### Chat-App
+Just a little chat application using [socket](https://docs.python.org/3/library/socket.html) and [multiprocessing](https://docs.python.org/3.3/library/multiprocessing.html) (with a [Manager](https://docs.python.org/3.3/library/multiprocessing.html#sharing-state-between-processes) to share users info). It isn't fully tested and the code it's kind of horrible but, I'll get on those details later
+
+#### Instalation
+1. Install Python from [here](https://www.python.org/downloads/) or from your distribution repository (under Linux)
+
+2. Go to the *Chat-App* folder
+>**cd** path_to_folder
+
+3. Start the server (stop it with Ctrl + C)
+>**python** *server.py*
+
+4. Start as many client instances as you want & enjoy?
+>**python** *client.py*
